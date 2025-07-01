@@ -1,9 +1,3 @@
-# Smart_Cricket-Predictor
-
-Here's a **README description** you can use for your project:
-
----
-
 ## 🏏 Smart Cricket Predictor Dashboard
 
 **Smart Cricket Predictor** is an interactive web application built using **Gradio**, **TensorFlow**, and **machine learning models** to analyze and forecast cricket player performance based on uploaded CSV stats. Whether you're a cricket analyst, coach, or just a fan, this dashboard provides deep insights into players' roles, predicted metrics, and comparisons.
@@ -44,23 +38,6 @@ The uploaded file should contain the following columns:
 * `bowling_avg`
 * `wickets`
 
-### 🚀 How to Run
-
-```bash
-pip install -r requirements.txt
-python app.py
-```
-
-Or deploy directly on **Hugging Face Spaces** with:
-
-```bash
-gradio deploy
-```
-
 ### 📌 Note
 
 This project uses a deep learning model for role prediction, so running it on CPU might be slower. For better performance, a GPU environment is recommended.
-
----
-
-Let me know if you'd like to include screenshots or Hugging Face deployment instructions too.
